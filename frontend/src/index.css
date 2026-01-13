@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F7F8FA;
+}
+
+
+.form-input {
+  @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm
+  focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+.logo-3d {
+  color: #14b8a6;
+  text-shadow:
+    1px 1px 0 #0f766e,
+    2px 2px 0 #0d5c57,
+    3px 3px 0 #09423f,
+    0 0 8px #2dd4bf;
+}
+
+.logo-3d {
+  transition: transform 0.2s ease;
+}
+
+.logo-3d:hover {
+  transform: translateY(-2px);
+}
